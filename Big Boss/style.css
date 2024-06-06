@@ -1,0 +1,149 @@
+/* General styles */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background-color: #f8f8f8;
+	color: #333;
+}
+
+/* Header styles */
+
+header {
+	background-color: #5d5353;
+	color: #fff;
+	padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+  background-image:url(https://www.freewebheaders.com/wp-content/gallery/grass/black-artificial-grass-lawn-top-view-background-header.jpg);
+}
+.logo img{
+  align-self: baseline;
+  padding-top: 5px;
+}
+.logo {
+	position: relative;
+}
+.bigboss_title {
+	position: relative;
+	top:-12px;
+	left: 10px;
+	font-weight: 600;
+	text-shadow: 3px 3px rgb(110, 208, 254);
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav li {
+	margin-left: 20px;
+}
+
+nav a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+/* Main styles */
+
+h1 {
+	text-align: center;
+	margin-top: 50px;
+	font-size: 36px;
+	font-weight: bold;
+}
+
+.contestants {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	margin-top: 50px;
+}
+
+.contestant {
+	margin: 20px;
+	padding: 20px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	text-align: center;
+	transition: all 0.2s ease-in-out;
+}
+
+.contestant:hover {
+	transform: translateY(-5px);
+	box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.contestant img {
+	width: 200px;
+	height: 200px;
+	object-fit: cover;
+	border-radius: 50%;
+}
+
+.contestant h3 {
+	margin-top: 20px;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+.contestant button {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 20px;
+	cursor: pointer;
+}
+
+.contestant button:hover {
+	background-color: #666;
+}
+
+footer {
+	background-color: #000000;
+	text-align: center;
+	padding: 10px;
+	bottom: 0;
+	width: 100%;
+	word-spacing: 15px;
+}
+a:visited{
+	color: cyan;
+}
+a:hover{
+	color: white;
+}
+.contestant .vote-count {
+	font-weight: bold;
+}
+.results-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 20px;
+  }
+  
+  .results-card {
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #ccc;
+	text-align: center;
+  }
+  
+  .results-card h3 {
+	margin: 10px 0;
+  }
+  
+  .results-card .vote-count {
+	font-weight: bold;
+  }

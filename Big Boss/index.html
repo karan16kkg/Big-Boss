@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+  <title>Bigg Boss</title>
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="bbeye.png" alt="Bigg Boss" width="100px" height="60px">
+      <span style="font-size: 50px;" class="bigboss_title">Bigg Boss</span>
+    </div>
+    <br>
+    <nav>
+      <ul>
+        <li><a href="login.html">Home</a></li>
+        <li><a href="index.html">Contestants</a></li>
+        <li><a href="#" id="results-button">Results</a></li>
+        <li><a href="about.html">About</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <h1>Vote for your favorite Bigg Boss contestant</h1>
+    <section class="contestants">
+        <div class="contestant">
+          <img src="https://ychef.files.bbci.co.uk/976x549/p08lr2pt.jpg" alt="Contestant 1">
+          <h3>Johnny Depp</h3>
+          <button onclick="vote('contestant1')">Vote Now</button>
+          <span class="vote-count" style="color: white;">54</span>
+        </div>
+        <div class="contestant">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSWzRmDJKe4_htvDAwgaYx-eGfdBAgVCjc_ow&usqp=CAU.jpg" alt="Contestant 2">
+          <h3>Shahrukh Khan</h3>
+          <button onclick="vote('contestant2')">Vote Now</button>
+          <span class="vote-count" style="color: white;">69</span>
+        </div>
+        <div class="contestant">
+          <img src="https://i.pinimg.com/736x/b5/35/5e/b5355e20ca4e6c7938b8fb3d009bf304--brown-hair-facial-hair.jpg" alt="Contestant 2">
+          <h3>Robert Downey Jr.</h3>
+          <button onclick="vote('contestant3')">Vote Now</button>
+          <span class="vote-count" style="color: white;">23</span>
+        </div>
+        <div class="contestant">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/5/52/Kartik_Aaryan_in_2022.jpg" alt="Contestant 2">
+          <h3>Kartik Aaryan</h3>
+          <button onclick="vote('contestant4')">Vote Now</button>
+          <span class="vote-count" style="color: white;">13</span>
+        </div>
+        <!-- Add more contestants here -->
+    </section>
+  </main>
+  <footer>
+        <a href="https://www.google.com/">FAQ</a>
+        <a href="mailto: BiggBoss@gmail.com" style="color: aqua;" onMouseOver="this.style.color='white'">ContactUs</a>
+        <a href="team.html">&copy;2023|Group24</a>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
